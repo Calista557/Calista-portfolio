@@ -286,6 +286,11 @@ function Home() {
               <div className="portrait-wrapper">
                 <div className="portrait-halo" aria-hidden="true" />
 
+                <div className="orbit-track" aria-hidden="true">
+                  <span className="orbit-dot orbit-dot-1" />
+                  <span className="orbit-dot orbit-dot-2" />
+                </div>
+
                 <div className="portrait-frame">
                   <img
                     src="/calista.png"
